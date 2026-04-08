@@ -35,7 +35,7 @@ WORDS = [
     "support trans rights",
 ]
 
-WIDTH, HEIGHT = 480, 120
+WIDTH, HEIGHT = 300, 60
 TRANS_COLORS = [(85, 205, 252), (247, 168, 184), (255, 255, 255), (247, 168, 184), (85, 205, 252)]
 STRIPE_H = HEIGHT // len(TRANS_COLORS)
 OUTPUT = os.path.join(os.path.dirname(os.path.dirname(__file__)), "gif.gif")
@@ -48,7 +48,7 @@ def draw_flag(draw: ImageDraw.ImageDraw) -> None:
         draw.rectangle([0, y0, WIDTH, y1], fill=color)
 
 
-def get_font(size: int) -> ImageFont.FreeTypeFont:
+def get_font(size: int = 18) -> ImageFont.FreeTypeFont:
     paths = [
         "/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf",
         "/usr/share/fonts/truetype/liberation/LiberationSans-Bold.ttf",
@@ -64,9 +64,9 @@ def build_palette() -> Image.Image:
     ref = Image.new("RGB", (WIDTH, HEIGHT))
     draw = ImageDraw.Draw(ref)
     draw_flag(draw)
-    font = get_font(28)
-    for dx in (-2, -1, 0, 1, 2):
-        for dy in (-2, -1, 0, 1, 2):
+    font = get_font()
+    for dx in (-1, 0, 1):
+        for dy in (-1, 0, 1):
             draw.text((10 + dx, 10 + dy), "palette ref", font=font, fill=(0, 0, 0))
     draw.text((10, 10), "palette ref", font=font, fill=(255, 255, 255))
     return ref.quantize(colors=128)
@@ -76,13 +76,13 @@ def make_frame(text: str, palette_img: Image.Image) -> Image.Image:
     frame = Image.new("RGB", (WIDTH, HEIGHT))
     draw = ImageDraw.Draw(frame)
     draw_flag(draw)
-    font = get_font(28)
+    font = get_font()
     bbox = draw.textbbox((0, 0), text, font=font)
     tw, th = bbox[2] - bbox[0], bbox[3] - bbox[1]
     x = (WIDTH - tw) // 2
     y = (HEIGHT - th) // 2
-    for dx in (-2, -1, 0, 1, 2):
-        for dy in (-2, -1, 0, 1, 2):
+    for dx in (-1, 0, 1):
+        for dy in (-1, 0, 1):
             draw.text((x + dx, y + dy), text, font=font, fill=(0, 0, 0))
     draw.text((x, y), text, font=font, fill=(255, 255, 255))
     return frame.quantize(palette=palette_img, dither=0)

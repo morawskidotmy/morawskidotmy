@@ -5,7 +5,7 @@
 <br/>
 <b>resident of free city of gdansk, wanna be coder</b>
 <br/><br/>
-<img src="gif.gif" alt="support trans rights" width="80"/>
+<img src="gif.gif" alt="support trans rights" width="300"/>
 </div>
 
 ---
@@ -55,4 +55,4 @@ if you find something i made useful consider donating:
 
 </div>
 
-<sub>last updated: 2026-04-08 13:09 UTC</sub>
+<sub>last updated: 2026-04-08 13:11 UTC</sub>

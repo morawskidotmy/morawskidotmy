@@ -120,7 +120,7 @@ def main() -> None:
 <br/>
 <b>resident of free city of gdansk, wanna be coder</b>
 <br/><br/>
-<img src="gif.gif" alt="support trans rights" width="80"/>
+<img src="gif.gif" alt="support trans rights" width="300"/>
 </div>
 
 ---
