@@ -10,6 +10,7 @@
 
 ---
 
+<div align="center">
 <table>
 <tr>
 <td valign="top" width="33%">
@@ -28,7 +29,7 @@
 
 **gdansk weather rn**
 
-cloudy day (4.7C)
+cloudy day (4.1C)
 
 **latest article**
 
@@ -46,6 +47,7 @@ if you find something i made useful consider donating:
 </td>
 </tr>
 </table>
+</div>
 
 ---
 
@@ -55,4 +57,4 @@ if you find something i made useful consider donating:
 
 </div>
 
-<sub>last updated: 2026-04-08 13:28 UTC</sub>
+<sub>last updated: 2026-04-08 13:30 UTC</sub>
