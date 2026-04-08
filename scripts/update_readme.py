@@ -126,6 +126,7 @@ def main() -> None:
 
 ---
 
+<div align="center">
 <table>
 <tr>
 <td valign="top" width="33%">
@@ -158,6 +159,7 @@ if you find something i made useful consider donating:
 </td>
 </tr>
 </table>
+</div>
 
 ---
 
