@@ -40,7 +40,6 @@ cloudy day (4.7C)
 
 if you find something i made useful consider donating:
 
-[![siepomaga](https://www.siepomaga.pl/images/logo-short.svg)](https://www.siepomaga.pl/zbiorki)
 [siepomaga.pl](https://www.siepomaga.pl/zbiorki)
 
 </td>
