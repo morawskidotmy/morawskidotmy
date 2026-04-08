@@ -150,7 +150,7 @@ def main() -> None:
 </td>
 <td valign="top" width="34%">
 
-**charity spotlight**
+**support**
 
 if you find something i made useful consider donating:
 
