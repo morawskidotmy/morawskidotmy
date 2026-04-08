@@ -38,7 +38,7 @@ cloudy day (4.1C)
 </td>
 <td valign="top" width="34%">
 
-**charity spotlight**
+**support**
 
 if you find something i made useful consider donating:
 
@@ -57,4 +57,4 @@ if you find something i made useful consider donating:
 
 </div>
 
-<sub>last updated: 2026-04-08 13:30 UTC</sub>
+<sub>last updated: 2026-04-08 13:33 UTC</sub>
