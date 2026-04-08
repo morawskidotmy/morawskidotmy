@@ -5,7 +5,7 @@
 <br/>
 <b>resident of free city of gdansk, wanna be coder</b>
 <br/><br/>
-<img src="gif.gif" alt="support trans rights" width="180"/>
+<a href="https://lambdapolska.org/en/help-us-help/"><img src="gif.gif" alt="support trans rights" width="180"/></a>
 </div>
 
 ---
