@@ -30,9 +30,14 @@ COUNT = str(get_murder_count())
 
 WORDS = [
     COUNT,
-    "confirmed cases",
-    "of trans genocide",
-    "support trans rights",
+    "confirmed",
+    "cases",
+    "of",
+    "trans",
+    "genocide",
+    "support",
+    "trans",
+    "rights",
 ]
 
 WIDTH, HEIGHT = 300, 60
@@ -48,8 +53,12 @@ def draw_flag(draw: ImageDraw.ImageDraw) -> None:
         draw.rectangle([0, y0, WIDTH, y1], fill=color)
 
 
-def get_font(size: int = 18) -> ImageFont.FreeTypeFont:
+def get_font(size: int = 36) -> ImageFont.FreeTypeFont:
+    bundled = os.path.join(os.path.dirname(__file__), "Impact.ttf")
+    if os.path.exists(bundled):
+        return ImageFont.truetype(bundled, size)
     paths = [
+        "/usr/share/fonts/truetype/msttcorefonts/Impact.ttf",
         "/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf",
         "/usr/share/fonts/truetype/liberation/LiberationSans-Bold.ttf",
         "/usr/share/fonts/TTF/DejaVuSans-Bold.ttf",
@@ -79,8 +88,8 @@ def make_frame(text: str, palette_img: Image.Image) -> Image.Image:
     font = get_font()
     bbox = draw.textbbox((0, 0), text, font=font)
     tw, th = bbox[2] - bbox[0], bbox[3] - bbox[1]
-    x = (WIDTH - tw) // 2
-    y = (HEIGHT - th) // 2
+    x = (WIDTH - tw) // 2 - bbox[0]
+    y = (HEIGHT - th) // 2 - bbox[1]
     for dx in (-1, 0, 1):
         for dy in (-1, 0, 1):
             draw.text((x + dx, y + dy), text, font=font, fill=(0, 0, 0))
