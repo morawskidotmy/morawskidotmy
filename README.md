@@ -29,7 +29,7 @@
 
 **gdansk weather rn**
 
-clear skies day (1.8C)
+partly cloudy day (3.5C)
 
 **latest article**
 
@@ -57,4 +57,4 @@ if you find something i made useful consider donating:
 
 </div>
 
-<sub>last updated: 2026-04-10 07:27 UTC</sub>
+<sub>last updated: 2026-04-11 07:00 UTC</sub>
