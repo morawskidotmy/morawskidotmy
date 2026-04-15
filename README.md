@@ -21,15 +21,15 @@
 |------|-----|
 | morawski.my | :green_circle: |
 | red.morawski.my | :red_circle: |
-| bin.morawski.my | :red_circle: |
-| transfer.morawski.my | :red_circle: |
+| bin.morawski.my | :green_circle: |
+| transfer.morawski.my | :green_circle: |
 
 </td>
 <td valign="top" width="33%">
 
 **gdansk weather rn**
 
-cloudy day (9.7C)
+cloudy day (10.4C)
 
 **latest article**
 
@@ -57,4 +57,4 @@ if you find something i made useful consider donating:
 
 </div>
 
-<sub>last updated: 2026-04-14 07:29 UTC</sub>
+<sub>last updated: 2026-04-15 07:43 UTC</sub>
