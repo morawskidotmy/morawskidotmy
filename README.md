@@ -29,7 +29,7 @@
 
 **gdansk weather rn**
 
-clear skies day (18.8C)
+cloudy day (21.2C)
 
 **latest article**
 
@@ -53,8 +53,8 @@ if you find something i made useful consider donating:
 
 <div align="center">
 
-`C` `C++` `CSS` `Dockerfile` `Go` `HTML` `JavaScript` `M4` `Makefile` `NSIS` `Nix` `Perl` `Python` `Shell` `Svelte` `TypeScript`
+`C` `C++` `CMake` `CSS` `Dockerfile` `Go` `HTML` `JavaScript` `M4` `Makefile` `NSIS` `Nix` `Objective-C++` `Perl` `Python` `Shell` `Svelte` `TypeScript`
 
 </div>
 
-<sub>last updated: 2026-05-02 07:41 UTC</sub>
+<sub>last updated: 2026-05-03 07:59 UTC</sub>
