@@ -20,7 +20,7 @@
 | site | up? |
 |------|-----|
 | morawski.my | :green_circle: |
-| red.morawski.my | :red_circle: |
+| red.morawski.my | :green_circle: |
 | bin.morawski.my | :green_circle: |
 | transfer.morawski.my | :green_circle: |
 
@@ -29,7 +29,7 @@
 
 **gdansk weather rn**
 
-cloudy day (21.2C)
+cloudy day (20.9C)
 
 **latest article**
 
@@ -57,4 +57,4 @@ if you find something i made useful consider donating:
 
 </div>
 
-<sub>last updated: 2026-05-03 07:59 UTC</sub>
+<sub>last updated: 2026-05-04 08:27 UTC</sub>
