@@ -20,7 +20,7 @@
 | site | up? |
 |------|-----|
 | morawski.my | :green_circle: |
-| red.morawski.my | :red_circle: |
+| red.morawski.my | :green_circle: |
 | bin.morawski.my | :green_circle: |
 | transfer.morawski.my | :green_circle: |
 
@@ -29,7 +29,7 @@
 
 **gdansk weather rn**
 
-rainy day (11.6C)
+rainy day (11.8C)
 
 **latest article**
 
@@ -57,4 +57,4 @@ if you find something i made useful consider donating:
 
 </div>
 
-<sub>last updated: 2026-05-14 08:35 UTC</sub>
+<sub>last updated: 2026-05-15 08:47 UTC</sub>
