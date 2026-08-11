@@ -29,7 +29,7 @@
 
 **gdansk weather rn**
 
-rainy day (18.5C)
+rainy day (16.9C)
 
 **latest article**
 
@@ -53,8 +53,8 @@ if you find something i made useful consider donating:
 
 <div align="center">
 
-`C` `C++` `CMake` `CSS` `Dockerfile` `Go` `HTML` `JavaScript` `M4` `Makefile` `NSIS` `Nix` `Objective-C++` `Perl` `Python` `Shell` `Svelte` `TypeScript` `Xonsh`
+`Go` `HTML` `Python` `Shell` `Xonsh`
 
 </div>
 
-<sub>last updated: 2026-08-10 07:28 UTC</sub>
+<sub>last updated: 2026-08-11 07:02 UTC</sub>
