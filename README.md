@@ -29,7 +29,7 @@
 
 **gdansk weather rn**
 
-rainy day (7.5C)
+weather unknown
 
 **latest article**
 
@@ -53,8 +53,8 @@ if you find something i made useful consider donating:
 
 <div align="center">
 
-`Assembly` `C` `C++` `CMake` `CSS` `Dockerfile` `Go` `HTML` `Java` `JavaScript` `Kotlin` `M4` `Makefile` `Mojo` `NSIS` `Nix` `Objective-C++` `Perl` `Python` `Raku` `Rust` `Shell` `Svelte` `Swift` `TypeScript` `Xonsh`
+`Assembly` `C` `C++` `CMake` `CSS` `Dockerfile` `Go` `HTML` `JavaScript` `Makefile` `Mojo` `Objective-C++` `Perl` `Python` `Raku` `Rust` `Shell` `Svelte` `TypeScript` `Xonsh`
 
 </div>
 
-<sub>last updated: 2026-11-14 12:57 UTC</sub>
+<sub>last updated: 2026-11-15 13:26 UTC</sub>
