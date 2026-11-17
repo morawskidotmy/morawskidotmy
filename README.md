@@ -53,8 +53,8 @@ if you find something i made useful consider donating:
 
 <div align="center">
 
-`Assembly` `C` `C++` `CMake` `CSS` `Dockerfile` `Go` `HTML` `JavaScript` `Makefile` `Mojo` `Objective-C++` `Perl` `Python` `Raku` `Rust` `Shell` `Svelte` `TypeScript` `Xonsh`
+`Assembly` `C` `C++` `CMake` `CSS` `Dockerfile` `Go` `HTML` `Java` `JavaScript` `Kotlin` `M4` `Makefile` `Mojo` `NSIS` `Nix` `Objective-C++` `Perl` `Python` `Raku` `Rust` `Shell` `Svelte` `Swift` `TypeScript` `Xonsh`
 
 </div>
 
-<sub>last updated: 2026-11-15 13:26 UTC</sub>
+<sub>last updated: 2026-11-17 15:29 UTC</sub>
